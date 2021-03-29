@@ -1,0 +1,21 @@
+*/ Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .container .box {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .box{
+        font-size: 32px;
+    }
+}
+
+*/ Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .container .box {
+        width: 100%
+    }
+    .box {
+        font-size: 24px;
+        line-height: 20px;
+    }
+} 
